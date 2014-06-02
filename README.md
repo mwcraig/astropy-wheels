@@ -13,6 +13,7 @@ Needed to install several things before running ``make_wheels.sh``:
 + ``apt-get install``
     + for building any python stuff: ``python-dev``
     + for ``scipy``: ``libblas-dev liblapack-dev gfortran``
+    + for ``matplotlib``: ``freetype* libpng-dev``
 
 + to make different virtualenvs for different versions of python you need to
 actually install those versions with ``apt-get`` first (e.g ``apt-get install

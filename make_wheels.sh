@@ -10,9 +10,9 @@
 WHEELHOUSE_HUB=~/wheelhouse
 
 # These control what gets built:
-pythons="python2.6 python2.7 python3.2 python3.3"
+pythons="python2.6 python2.7 python3.2 python3.3 python3.4"
 numpys="1.5.1 1.6.2 1.7.1 1.8.1"
-builds="scipy==0.13.3 astropy"
+builds="scipy==0.14.0 astropy matplotlib==1.3.1"
 
 # Change the default root for environments if you want:
 export WORKON_HOME=~/Envs
